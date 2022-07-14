@@ -76,17 +76,17 @@ article {
     "testimonial-4-component"
     "testimonial-5-component";
   gap: 2rem;
+  justify-items: center;
 
-  padding: 8rem 3rem;
-
-  min-width: 37.5rem;
-
+  padding: 8rem 0;
   background-color: var(--clr-light-grayish-blue);
 }
 
 /* style 1st component - mobile */
 
 .testimonial-1-component {
+  width: 35.5rem;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -98,9 +98,9 @@ article {
   background-color: var(--clr-moderate-violet);
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position: 85% 5%;
+  background-position: 89% 6%;
 
-  padding: 3rem 4rem 4rem 4rem;
+  padding: 3rem 3rem 4rem 4rem;
 
   border-radius: 1rem;
 }
@@ -154,6 +154,8 @@ article {
 /* style 2nd component - mobile */
 
 .testimonial-2-component {
+  width: 35.5rem;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -218,6 +220,8 @@ article {
 /* style 3rd component - mobile */
 
 .testimonial-3-component {
+  width: 35.5rem;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -226,7 +230,7 @@ article {
     "testimonial-3-component__testimonial-details";
   gap: 1.75rem;
 
-  padding: 3rem 4rem 4rem 4rem;
+  padding: 3rem 2.5rem 4rem 4rem;
 
   background-color: var(--clr-white);
 
@@ -282,6 +286,8 @@ article {
 /* style 4th component - mobile */
 
 .testimonial-4-component {
+  width: 35.5rem;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -346,6 +352,8 @@ article {
 /* style 5th component - mobile */
 
 .testimonial-5-component {
+  width: 35.5rem;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
