@@ -65,3 +65,51 @@ article {
 /* ----------- ----------- ----------- ----------- ----------- ------------ */
 
 /* ----------- ----------- ----------- mobile first approach ----------- ----------- ----------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "testimonial-1-component"
+    "testimonial-2-component"
+    "testimonial-3-component"
+    "testimonial-4-component"
+    "testimonial-5-component";
+  gap: 2rem;
+
+  padding: 8rem 3rem;
+
+  min-width: 37.5rem;
+}
+
+/* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
+
+/* Component 1 grid areas */
+
+.testimonial-1-component {
+  grid-area: testimonial-1-component;
+}
+
+/* Component 2 grid areas */
+
+.testimonial-2-component {
+  grid-area: testimonial-2-component;
+}
+
+/* Component 3 grid areas */
+
+.testimonial-3-component {
+  grid-area: testimonial-3-component;
+}
+
+/* Component 4 grid areas */
+
+.testimonial-4-component {
+  grid-area: testimonial-4-component;
+}
+
+/* Component 5 grid areas */
+
+.testimonial-5-component {
+  grid-area: testimonial-5-component;
+}
