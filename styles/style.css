@@ -57,7 +57,7 @@ body {
 header,
 footer,
 article {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* ----------- ----------- ----------- ----------- ----------- ------------ */
@@ -82,12 +82,101 @@ article {
   min-width: 37.5rem;
 }
 
+/* style 1st component - mobile */
+
+.testimonial-1-component {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "testimonial-1-component__user-profile"
+    "testimonial-1-component__testimonial-title"
+    "testimonial-1-component__testimonial-details";
+  gap: 1.75rem;
+
+  background-color: var(--clr-moderate-violet);
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 85% 5%;
+
+  padding: 4rem;
+}
+
+.testimonial-1-component__user-profile {
+  display: grid;
+  grid-template-columns: 50px 200px;
+  grid-template-rows: 22px 18px;
+  grid-template-areas:
+    "testimonial-1-component__user-image testimonial-1-component__user-name"
+    "testimonial-1-component__user-image testimonial-1-component__user-profession";
+  align-items: center;
+}
+
+.testimonial-1-component__user-image {
+  width: 70%;
+
+  border-radius: 50%;
+  border: 2px solid var(--clr-light-gray);
+}
+
+.testimonial-1-component__user-name {
+  font-family: var(--ff-primary);
+
+  color: var(--clr-light-grayish-blue);
+}
+
+.testimonial-1-component__user-profession {
+  font-family: var(--ff-primary);
+  font-family: 1.3rem;
+
+  color: var(--clr-light-gray);
+}
+
+.testimonial-1-component__testimonial-title {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-600);
+  font-size: 2.2rem;
+
+  color: var(--clr-light-grayish-blue);
+}
+
+.testimonial-1-component__testimonial-details {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-500);
+  font-size: 1.5rem;
+
+  color: var(--clr-light-gray);
+}
+
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
 
 /* Component 1 grid areas */
 
 .testimonial-1-component {
   grid-area: testimonial-1-component;
+}
+
+.testimonial-1-component__user-profile {
+  grid-area: testimonial-1-component__user-profile;
+}
+
+.testimonial-1-component__user-image {
+  grid-area: testimonial-1-component__user-image;
+}
+
+.testimonial-1-component__user-name {
+  grid-area: testimonial-1-component__user-name;
+}
+
+.testimonial-1-component__user-profession {
+  grid-area: testimonial-1-component__user-profession;
+}
+
+.testimonial-1-component__testimonial-title {
+  grid-area: testimonial-1-component__testimonial-title;
+}
+
+.testimonial-1-component__testimonial-details {
+  grid-area: testimonial-1-component__testimonial-details;
 }
 
 /* Component 2 grid areas */
