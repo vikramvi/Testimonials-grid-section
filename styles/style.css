@@ -132,7 +132,8 @@ article {
   font-family: var(--ff-primary);
   font-size: 1.3rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 50%;
 }
 
 .testimonial-1-component__testimonial-title {
@@ -148,7 +149,8 @@ article {
   font-weight: var(--fw-500);
   font-size: 1.5rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 70%;
 }
 
 /* style 2nd component - mobile */
@@ -198,7 +200,8 @@ article {
   font-family: var(--ff-primary);
   font-size: 1.3rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 50%;
 }
 
 .testimonial-2-component__testimonial-title {
@@ -214,7 +217,8 @@ article {
   font-weight: var(--fw-500);
   font-size: 1.5rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 70%;
 }
 
 /* style 3rd component - mobile */
@@ -264,7 +268,8 @@ article {
   font-family: var(--ff-primary);
   font-size: 1.3rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-very-dark-grayish-blue);
+  opacity: 50%;
 }
 
 .testimonial-3-component__testimonial-title {
@@ -280,7 +285,8 @@ article {
   font-weight: var(--fw-500);
   font-size: 1.5rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-very-dark-grayish-blue);
+  opacity: 70%;
 }
 
 /* style 4th component - mobile */
@@ -330,7 +336,8 @@ article {
   font-family: var(--ff-primary);
   font-size: 1.3rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 50%;
 }
 
 .testimonial-4-component__testimonial-title {
@@ -346,7 +353,8 @@ article {
   font-weight: var(--fw-500);
   font-size: 1.5rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-light-grayish-blue);
+  opacity: 70%;
 }
 
 /* style 5th component - mobile */
@@ -396,7 +404,8 @@ article {
   font-family: var(--ff-primary);
   font-size: 1.3rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-very-dark-grayish-blue);
+  opacity: 50%;
 }
 
 .testimonial-5-component__testimonial-title {
@@ -412,7 +421,8 @@ article {
   font-weight: var(--fw-500);
   font-size: 1.5rem;
 
-  color: var(--clr-light-gray);
+  color: var(--clr-very-dark-grayish-blue);
+  opacity: 70%;
 }
 
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
