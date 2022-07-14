@@ -80,6 +80,8 @@ article {
   padding: 8rem 3rem;
 
   min-width: 37.5rem;
+
+  background-color: var(--clr-light-grayish-blue);
 }
 
 /* style 1st component - mobile */
@@ -99,6 +101,8 @@ article {
   background-position: 85% 5%;
 
   padding: 4rem;
+
+  border-radius: 1rem;
 }
 
 .testimonial-1-component__user-profile {
@@ -147,6 +151,70 @@ article {
   color: var(--clr-light-gray);
 }
 
+/* style 2nd component - mobile */
+
+.testimonial-2-component {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "testimonial-2-component__user-profile"
+    "testimonial-2-component__testimonial-title"
+    "testimonial-2-component__testimonial-details";
+  gap: 1.75rem;
+
+  padding: 4rem;
+
+  background-color: var(--clr-very-dark-grayish-blue);
+
+  border-radius: 1rem;
+}
+
+.testimonial-2-component__user-profile {
+  display: grid;
+  grid-template-columns: 50px 200px;
+  grid-template-rows: 22px 18px;
+  grid-template-areas:
+    "testimonial-2-component__user-image testimonial-2-component__user-name"
+    "testimonial-2-component__user-image testimonial-2-component__user-profession";
+  align-items: center;
+}
+
+.testimonial-2-component__user-image {
+  width: 70%;
+
+  border-radius: 50%;
+  border: 2px solid var(--clr-light-gray);
+}
+
+.testimonial-2-component__user-name {
+  font-family: var(--ff-primary);
+
+  color: var(--clr-light-grayish-blue);
+}
+
+.testimonial-2-component__user-profession {
+  font-family: var(--ff-primary);
+  font-family: 1.3rem;
+
+  color: var(--clr-light-gray);
+}
+
+.testimonial-2-component__testimonial-title {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-600);
+  font-size: 2.2rem;
+
+  color: var(--clr-light-grayish-blue);
+}
+
+.testimonial-2-component__testimonial-details {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-500);
+  font-size: 1.5rem;
+
+  color: var(--clr-light-gray);
+}
+
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
 
 /* Component 1 grid areas */
@@ -183,6 +251,30 @@ article {
 
 .testimonial-2-component {
   grid-area: testimonial-2-component;
+}
+
+.testimonial-2-component__user-profile {
+  grid-area: testimonial-2-component__user-profile;
+}
+
+.testimonial-2-component__user-image {
+  grid-area: testimonial-2-component__user-image;
+}
+
+.testimonial-2-component__user-name {
+  grid-area: testimonial-2-component__user-name;
+}
+
+.testimonial-2-component__user-profession {
+  grid-area: testimonial-2-component__user-profession;
+}
+
+.testimonial-2-component__testimonial-title {
+  grid-area: testimonial-2-component__testimonial-title;
+}
+
+.testimonial-2-component__testimonial-details {
+  grid-area: testimonial-2-component__testimonial-details;
 }
 
 /* Component 3 grid areas */
