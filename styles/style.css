@@ -79,6 +79,9 @@ article {
   justify-items: center;
 
   padding: 8rem 0;
+
+  min-width: 37.5rem;
+
   background-color: var(--clr-light-grayish-blue);
 }
 
@@ -98,7 +101,8 @@ article {
   background-color: var(--clr-moderate-violet);
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position: 89% 6%;
+  background-position: 95% 0%;
+  background-size: 13rem;
 
   padding: 3rem 3rem 4rem 4rem;
 
@@ -423,6 +427,83 @@ article {
 
   color: var(--clr-very-dark-grayish-blue);
   opacity: 70%;
+}
+
+/* ----------- ----------- ----------- desktop second approach ----------- ----------- ----------- */
+
+@media screen and (min-width: 42rem) {
+  .grid-container {
+    grid-template-columns: 290px 300px 290px 300px;
+    grid-template-areas:
+      "testimonial-1-component testimonial-1-component testimonial-2-component testimonial-5-component"
+      "testimonial-3-component testimonial-4-component testimonial-4-component testimonial-5-component";
+    justify-content: center;
+
+    padding: 4rem 0;
+
+    gap: 3.5rem;
+  }
+
+  /* reset fixed width components from mobile layout */
+  .testimonial-1-component,
+  .testimonial-2-component,
+  .testimonial-3-component,
+  .testimonial-4-component,
+  .testimonial-5-component {
+    width: 100%;
+
+    gap: 1.25rem;
+
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+  /*  desktop - component 1 styling  */
+
+  .testimonial-1-component {
+    background-position: 82% 0%;
+    background-size: 13rem;
+  }
+
+  .testimonial-1-component__testimonial-title {
+    width: 95%;
+  }
+
+  /*  desktop - component 2 styling  */
+
+  .testimonial-2-component__testimonial-title {
+    width: 90%;
+  }
+
+  .testimonial-2-component__testimonial-details {
+    width: 85%;
+  }
+
+  /*  desktop - component 3 styling  */
+
+  .testimonial-3-component__testimonial-title {
+    width: 80%;
+  }
+
+  .testimonial-3-component__testimonial-details {
+    width: 85%;
+  }
+
+  /*  desktop - component 4 styling  */
+
+  .testimonial-4-component__testimonial-title {
+    width: 95%;
+  }
+
+  .testimonial-4-component__testimonial-details {
+    width: 96%;
+  }
+
+  /*  desktop - component 5 styling  */
+
+  .testimonial-5-component__testimonial-details {
+    width: 90%;
+  }
 }
 
 /* ----------- ----------- ----------- grid area names ----------- ----------- ----------- */
