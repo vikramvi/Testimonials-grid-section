@@ -104,7 +104,7 @@ article {
   background-position: 95% 0%;
   background-size: 13rem;
 
-  padding: 3rem 3rem 4rem 4rem;
+  padding: 3rem 3.1rem 4rem 3.7rem;
 
   border-radius: 1rem;
 }
@@ -142,7 +142,6 @@ article {
 
 .testimonial-1-component__testimonial-title {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   font-size: 2.2rem;
 
   color: var(--clr-light-grayish-blue);
@@ -210,7 +209,6 @@ article {
 
 .testimonial-2-component__testimonial-title {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   font-size: 2.2rem;
 
   color: var(--clr-light-grayish-blue);
@@ -278,7 +276,6 @@ article {
 
 .testimonial-3-component__testimonial-title {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   font-size: 2.2rem;
 
   color: var(--clr-very-dark-grayish-blue);
@@ -346,10 +343,9 @@ article {
 
 .testimonial-4-component__testimonial-title {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   font-size: 2.2rem;
 
-  color: var(--clr-light-grayish-blue);
+  color: var(--clr-light-gray);
 }
 
 .testimonial-4-component__testimonial-details {
@@ -414,7 +410,6 @@ article {
 
 .testimonial-5-component__testimonial-title {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   font-size: 2.2rem;
 
   color: var(--clr-very-dark-grayish-blue);
